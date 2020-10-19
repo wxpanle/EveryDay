@@ -1,1 +1,1 @@
-EveryDay
+EeryDay.
