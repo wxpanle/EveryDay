@@ -1,0 +1,6 @@
+framework module HYBLoopScrollView {
+  umbrella header "HYBLoopScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}
