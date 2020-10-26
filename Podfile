@@ -10,7 +10,6 @@ target 'EveryDay' do
   pod 'MJRefresh'
   pod 'SDWebImage', '~> 5.0'
   pod 'AFNetworking', '~> 4.0'
-  pod 'YYKit'
   pod 'YTKNetwork'
   pod 'pop', '~> 1.0'
   pod 'YYModel'
@@ -21,4 +20,14 @@ target 'EveryDay' do
   pod 'IQKeyboardManagerSwift'
   pod 'SDAutoLayout', '~> 2.1.3'
 
+  #YY
+  pod 'YYModel'
+  pod 'YYCache'
+  pod 'YYImage'
+  pod 'YYWebImage'
+  pod 'YYText'
+  pod 'YYKeyboardManager'
+  pod 'YYDispatchQueuePool'
+  pod 'YYAsyncLayer'
+  pod 'YYCategories'
 end
