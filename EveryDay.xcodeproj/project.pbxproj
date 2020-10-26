@@ -3,17 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		65FF12E8D42D07C25C70F33D /* Pods_EveryDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D400306E233215EFBDD710 /* Pods_EveryDay.framework */; };
 		B25BC48C253E9B6B005A30CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BC48B253E9B6B005A30CC /* AppDelegate.swift */; };
-		B25BC48E253E9B6B005A30CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BC48D253E9B6B005A30CC /* SceneDelegate.swift */; };
 		B25BC490253E9B6B005A30CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BC48F253E9B6B005A30CC /* ViewController.swift */; };
 		B25BC493253E9B6B005A30CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BC491253E9B6B005A30CC /* Main.storyboard */; };
 		B25BC495253E9B6E005A30CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25BC494253E9B6E005A30CC /* Assets.xcassets */; };
 		B25BC498253E9B6E005A30CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BC496253E9B6E005A30CC /* LaunchScreen.storyboard */; };
+		B2B3AF0F254675B5001633EE /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AED0254675B5001633EE /* ArrayExtension.swift */; };
+		B2B3AF10254675B5001633EE /* ControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AED1254675B5001633EE /* ControlExtension.swift */; };
+		B2B3AF11254675B5001633EE /* UIApplication+OpenUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AED2254675B5001633EE /* UIApplication+OpenUrl.swift */; };
+		B2B3AF12254675B5001633EE /* NSBundle+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AED3254675B5001633EE /* NSBundle+Language.swift */; };
+		B2B3AF15254675B5001633EE /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AED6254675B5001633EE /* UIViewControllerExtensions.swift */; };
+		B2B3AF16254675B5001633EE /* String+Pinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AED7254675B5001633EE /* String+Pinyin.swift */; };
+		B2B3AF17254675B5001633EE /* CellReuseIdentifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AED8254675B5001633EE /* CellReuseIdentifierExtension.swift */; };
+		B2B3AF18254675B5001633EE /* CalculationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AED9254675B5001633EE /* CalculationExtensions.swift */; };
+		B2B3AF1B254675B5001633EE /* ScreenExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEDC254675B5001633EE /* ScreenExtensions.swift */; };
+		B2B3AF20254675B5001633EE /* BLEManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEE4254675B5001633EE /* BLEManagerDelegate.swift */; };
+		B2B3AF21254675B5001633EE /* BLEAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEE5254675B5001633EE /* BLEAlert.swift */; };
+		B2B3AF22254675B5001633EE /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEE6254675B5001633EE /* BLEManager.swift */; };
+		B2B3AF23254675B5001633EE /* CBPeripheralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEE7254675B5001633EE /* CBPeripheralExtensions.swift */; };
+		B2B3AF24254675B5001633EE /* BLEDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEE8254675B5001633EE /* BLEDefines.swift */; };
+		B2B3AF25254675B5001633EE /* UIViewExtensions+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEEA254675B5001633EE /* UIViewExtensions+Print.swift */; };
+		B2B3AF26254675B5001633EE /* UIImage+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEEB254675B5001633EE /* UIImage+Help.m */; };
+		B2B3AF27254675B5001633EE /* UIImageExtexsions+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEED254675B5001633EE /* UIImageExtexsions+Print.swift */; };
+		B2B3AF28254675B5001633EE /* PrintBoxCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEEE254675B5001633EE /* PrintBoxCodeModel.swift */; };
+		B2B3AF29254675B5001633EE /* PrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEEF254675B5001633EE /* PrintManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +40,31 @@
 		910EDEC72D355C38989B2E92 /* Pods-EveryDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EveryDay.debug.xcconfig"; path = "Target Support Files/Pods-EveryDay/Pods-EveryDay.debug.xcconfig"; sourceTree = "<group>"; };
 		B25BC488253E9B6B005A30CC /* EveryDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25BC48B253E9B6B005A30CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B25BC48D253E9B6B005A30CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B25BC48F253E9B6B005A30CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B25BC492253E9B6B005A30CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B25BC494253E9B6E005A30CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B25BC497253E9B6E005A30CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B25BC499253E9B6E005A30CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B3AED0254675B5001633EE /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		B2B3AED1254675B5001633EE /* ControlExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlExtension.swift; sourceTree = "<group>"; };
+		B2B3AED2254675B5001633EE /* UIApplication+OpenUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+OpenUrl.swift"; sourceTree = "<group>"; };
+		B2B3AED3254675B5001633EE /* NSBundle+Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBundle+Language.swift"; sourceTree = "<group>"; };
+		B2B3AED6254675B5001633EE /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		B2B3AED7254675B5001633EE /* String+Pinyin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Pinyin.swift"; sourceTree = "<group>"; };
+		B2B3AED8254675B5001633EE /* CellReuseIdentifierExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellReuseIdentifierExtension.swift; sourceTree = "<group>"; };
+		B2B3AED9254675B5001633EE /* CalculationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationExtensions.swift; sourceTree = "<group>"; };
+		B2B3AEDC254675B5001633EE /* ScreenExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenExtensions.swift; sourceTree = "<group>"; };
+		B2B3AEE4254675B5001633EE /* BLEManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManagerDelegate.swift; sourceTree = "<group>"; };
+		B2B3AEE5254675B5001633EE /* BLEAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEAlert.swift; sourceTree = "<group>"; };
+		B2B3AEE6254675B5001633EE /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		B2B3AEE7254675B5001633EE /* CBPeripheralExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBPeripheralExtensions.swift; sourceTree = "<group>"; };
+		B2B3AEE8254675B5001633EE /* BLEDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDefines.swift; sourceTree = "<group>"; };
+		B2B3AEEA254675B5001633EE /* UIViewExtensions+Print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewExtensions+Print.swift"; sourceTree = "<group>"; };
+		B2B3AEEB254675B5001633EE /* UIImage+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Help.m"; sourceTree = "<group>"; };
+		B2B3AEEC254675B5001633EE /* UIImage+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Help.h"; sourceTree = "<group>"; };
+		B2B3AEED254675B5001633EE /* UIImageExtexsions+Print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageExtexsions+Print.swift"; sourceTree = "<group>"; };
+		B2B3AEEE254675B5001633EE /* PrintBoxCodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintBoxCodeModel.swift; sourceTree = "<group>"; };
+		B2B3AEEF254675B5001633EE /* PrintManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +109,73 @@
 			isa = PBXGroup;
 			children = (
 				B25BC48B253E9B6B005A30CC /* AppDelegate.swift */,
-				B25BC48D253E9B6B005A30CC /* SceneDelegate.swift */,
 				B25BC48F253E9B6B005A30CC /* ViewController.swift */,
 				B25BC491253E9B6B005A30CC /* Main.storyboard */,
 				B25BC494253E9B6E005A30CC /* Assets.xcassets */,
 				B25BC496253E9B6E005A30CC /* LaunchScreen.storyboard */,
 				B25BC499253E9B6E005A30CC /* Info.plist */,
+				B2B3AEC92546758C001633EE /* Library */,
 			);
 			path = EveryDay;
+			sourceTree = "<group>";
+		};
+		B2B3AEC92546758C001633EE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3AECC254675B4001633EE /* Extensions */,
+				B2B3AEE2254675B5001633EE /* Print */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B2B3AECC254675B4001633EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3AED0254675B5001633EE /* ArrayExtension.swift */,
+				B2B3AED1254675B5001633EE /* ControlExtension.swift */,
+				B2B3AED2254675B5001633EE /* UIApplication+OpenUrl.swift */,
+				B2B3AED3254675B5001633EE /* NSBundle+Language.swift */,
+				B2B3AED6254675B5001633EE /* UIViewControllerExtensions.swift */,
+				B2B3AED7254675B5001633EE /* String+Pinyin.swift */,
+				B2B3AED8254675B5001633EE /* CellReuseIdentifierExtension.swift */,
+				B2B3AED9254675B5001633EE /* CalculationExtensions.swift */,
+				B2B3AEDC254675B5001633EE /* ScreenExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B2B3AEE2254675B5001633EE /* Print */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3AEE3254675B5001633EE /* BLEManager */,
+				B2B3AEE9254675B5001633EE /* PrintManager */,
+			);
+			path = Print;
+			sourceTree = "<group>";
+		};
+		B2B3AEE3254675B5001633EE /* BLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3AEE4254675B5001633EE /* BLEManagerDelegate.swift */,
+				B2B3AEE5254675B5001633EE /* BLEAlert.swift */,
+				B2B3AEE6254675B5001633EE /* BLEManager.swift */,
+				B2B3AEE7254675B5001633EE /* CBPeripheralExtensions.swift */,
+				B2B3AEE8254675B5001633EE /* BLEDefines.swift */,
+			);
+			path = BLEManager;
+			sourceTree = "<group>";
+		};
+		B2B3AEE9254675B5001633EE /* PrintManager */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3AEEA254675B5001633EE /* UIViewExtensions+Print.swift */,
+				B2B3AEEB254675B5001633EE /* UIImage+Help.m */,
+				B2B3AEEC254675B5001633EE /* UIImage+Help.h */,
+				B2B3AEED254675B5001633EE /* UIImageExtexsions+Print.swift */,
+				B2B3AEEE254675B5001633EE /* PrintBoxCodeModel.swift */,
+				B2B3AEEF254675B5001633EE /* PrintManager.swift */,
+			);
+			path = PrintManager;
 			sourceTree = "<group>";
 		};
 		E2D998AE5895678897F001B9 /* Pods */ = {
@@ -88,7 +184,6 @@
 				910EDEC72D355C38989B2E92 /* Pods-EveryDay.debug.xcconfig */,
 				5848DB583275FAC9759E7A78 /* Pods-EveryDay.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,9 +301,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B3AF12254675B5001633EE /* NSBundle+Language.swift in Sources */,
+				B2B3AF23254675B5001633EE /* CBPeripheralExtensions.swift in Sources */,
+				B2B3AF15254675B5001633EE /* UIViewControllerExtensions.swift in Sources */,
+				B2B3AF22254675B5001633EE /* BLEManager.swift in Sources */,
+				B2B3AF25254675B5001633EE /* UIViewExtensions+Print.swift in Sources */,
 				B25BC490253E9B6B005A30CC /* ViewController.swift in Sources */,
+				B2B3AF1B254675B5001633EE /* ScreenExtensions.swift in Sources */,
+				B2B3AF26254675B5001633EE /* UIImage+Help.m in Sources */,
+				B2B3AF18254675B5001633EE /* CalculationExtensions.swift in Sources */,
+				B2B3AF17254675B5001633EE /* CellReuseIdentifierExtension.swift in Sources */,
 				B25BC48C253E9B6B005A30CC /* AppDelegate.swift in Sources */,
-				B25BC48E253E9B6B005A30CC /* SceneDelegate.swift in Sources */,
+				B2B3AF24254675B5001633EE /* BLEDefines.swift in Sources */,
+				B2B3AF28254675B5001633EE /* PrintBoxCodeModel.swift in Sources */,
+				B2B3AF16254675B5001633EE /* String+Pinyin.swift in Sources */,
+				B2B3AF0F254675B5001633EE /* ArrayExtension.swift in Sources */,
+				B2B3AF27254675B5001633EE /* UIImageExtexsions+Print.swift in Sources */,
+				B2B3AF20254675B5001633EE /* BLEManagerDelegate.swift in Sources */,
+				B2B3AF21254675B5001633EE /* BLEAlert.swift in Sources */,
+				B2B3AF29254675B5001633EE /* PrintManager.swift in Sources */,
+				B2B3AF10254675B5001633EE /* ControlExtension.swift in Sources */,
+				B2B3AF11254675B5001633EE /* UIApplication+OpenUrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
