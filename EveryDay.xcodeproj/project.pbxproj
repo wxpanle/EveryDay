@@ -114,6 +114,7 @@
 				B25BC494253E9B6E005A30CC /* Assets.xcassets */,
 				B25BC496253E9B6E005A30CC /* LaunchScreen.storyboard */,
 				B25BC499253E9B6E005A30CC /* Info.plist */,
+				B2F4239025490C6D00CB2D4E /* Translation */,
 				B2B3AEC92546758C001633EE /* Library */,
 			);
 			path = EveryDay;
@@ -176,6 +177,21 @@
 				B2B3AEEF254675B5001633EE /* PrintManager.swift */,
 			);
 			path = PrintManager;
+			sourceTree = "<group>";
+		};
+		B2F4239025490C6D00CB2D4E /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				B2F4239125490C8500CB2D4E /* YYCache */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		B2F4239125490C8500CB2D4E /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YYCache;
 			sourceTree = "<group>";
 		};
 		E2D998AE5895678897F001B9 /* Pods */ = {
