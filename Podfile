@@ -1,4 +1,4 @@
-# Uncomment the next line to define a global platform for your project
+#Uncomment the next line to define a global platform for your project
  platform :ios, '10.0'
 
 target 'EveryDay' do
@@ -30,4 +30,7 @@ target 'EveryDay' do
   pod 'YYDispatchQueuePool'
   pod 'YYAsyncLayer'
   pod 'YYCategories'
+
+  #FMDB
+  pod 'FMDB'
 end
