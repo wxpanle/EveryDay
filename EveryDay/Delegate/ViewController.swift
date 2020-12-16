@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  EveryDay
 //
-//  Created by SF-潘乐 on 2020/10/20.
+//  Created by "pl" on 2020/10/20.
 //
 
 import UIKit

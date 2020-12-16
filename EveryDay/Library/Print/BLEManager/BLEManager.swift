@@ -2,7 +2,7 @@
 //  BLEManager.swift
 //  ExtremePlusDriver
 //
-//  Created by SF-潘乐 on 2019/12/25.
+//  Created by "pl" on 2019/12/25.
 //  Copyright © 2019 Beijing SF Intra-city Technology Co., Ltd. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  UIApplication+OpenUrl.swift
 //  ExtremePlusDriver
 //
-//  Created by SF-潘乐 on 2020/5/31.
+//  Created by on 2020/5/31.
 //  Copyright © 2020 Beijing SF Intra-city Technology Co., Ltd. All rights reserved.
 //
 
