@@ -22,13 +22,13 @@ extension PrintManager {
     
     /// 开始打印某一个箱签
     /// - Parameter model: model description
-    class func printBoxCode(_ model: PrintOrderBoxCodeItemModel) {
+    class func printBoxCode(_ model: Any) {
         printBoxCodes([model])
     }
     
     /// 开始打印一组箱签
     /// - Parameter models: models
-    class func printBoxCodes(_ models: [PrintOrderBoxCodeItemModel]) {
+    class func printBoxCodes(_ models: [Any]) {
         PrintManager.default.p_printBoxCodes(models)
     }
 }
@@ -66,7 +66,7 @@ class PrintManager: NSObject {
         BLEManager.shared.delegate = self
     }
     
-    private func p_printBoxCodes(_ models: [PrintOrderBoxCodeItemModel]) {
+    private func p_printBoxCodes(_ models: [Any]) {
         let printModels = models.map { PrintBoxCodeModel.init(boxCodeModel: $0) }
         needPrintModels.append(contentsOf: printModels)
         

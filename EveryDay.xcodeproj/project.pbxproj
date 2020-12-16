@@ -108,16 +108,23 @@
 		B25BC48A253E9B6B005A30CC /* EveryDay */ = {
 			isa = PBXGroup;
 			children = (
-				B25BC48B253E9B6B005A30CC /* AppDelegate.swift */,
-				B25BC48F253E9B6B005A30CC /* ViewController.swift */,
-				B25BC491253E9B6B005A30CC /* Main.storyboard */,
-				B25BC494253E9B6E005A30CC /* Assets.xcassets */,
-				B25BC496253E9B6E005A30CC /* LaunchScreen.storyboard */,
-				B25BC499253E9B6E005A30CC /* Info.plist */,
 				B2F4239025490C6D00CB2D4E /* Translation */,
+				B2B9BFEA2589E20000B658BE /* Delegate */,
+				B2B200392589E6F1000253C9 /* Resources */,
 				B2B3AEC92546758C001633EE /* Library */,
 			);
 			path = EveryDay;
+			sourceTree = "<group>";
+		};
+		B2B200392589E6F1000253C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B25BC496253E9B6E005A30CC /* LaunchScreen.storyboard */,
+				B25BC491253E9B6B005A30CC /* Main.storyboard */,
+				B25BC494253E9B6E005A30CC /* Assets.xcassets */,
+				B25BC499253E9B6E005A30CC /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B2B3AEC92546758C001633EE /* Library */ = {
@@ -177,6 +184,15 @@
 				B2B3AEEF254675B5001633EE /* PrintManager.swift */,
 			);
 			path = PrintManager;
+			sourceTree = "<group>";
+		};
+		B2B9BFEA2589E20000B658BE /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B25BC48B253E9B6B005A30CC /* AppDelegate.swift */,
+				B25BC48F253E9B6B005A30CC /* ViewController.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 		B2F4239025490C6D00CB2D4E /* Translation */ = {
@@ -486,7 +502,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EveryDay/Info.plist;
+				INFOPLIST_FILE = EveryDay/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,7 +522,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EveryDay/Info.plist;
+				INFOPLIST_FILE = EveryDay/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

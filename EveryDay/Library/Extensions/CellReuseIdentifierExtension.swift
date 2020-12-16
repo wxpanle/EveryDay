@@ -8,8 +8,6 @@
 
 import Foundation
 import UIKit
-import NXDesign
-import SFFoundation
 
 public protocol RegisterReuseIdentifierProtocol: AnyObject {
     static var defaultNibName: String { get }

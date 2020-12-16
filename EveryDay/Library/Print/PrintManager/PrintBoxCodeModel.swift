@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import SFFoundation
 
 // MARK: - kPrintWidth
 fileprivate struct Constants {
@@ -23,7 +22,7 @@ class BitDataInfoModel {
 
 class PrintBoxCodeModel {
     /// 需要打印的箱码model
-    var boxCodeModel: PrintOrderBoxCodeItemModel
+    var boxCodeModel: Any?
     /// 位图信息model
     var bitDataInfoModel: BitDataInfoModel?
     /// 需要打印的数据
@@ -33,7 +32,7 @@ class PrintBoxCodeModel {
     /// 获取打印数据的长度
     var printDataLength: Int { return printData?.count ?? 0 }
     
-    init(boxCodeModel: PrintOrderBoxCodeItemModel) {
+    init(boxCodeModel: Any?) {
         self.boxCodeModel = boxCodeModel
     }
     
@@ -44,11 +43,10 @@ class PrintBoxCodeModel {
         guard !isPrintDataEnable else { return }
         // 300 * 312 106000 13764
         // 300 * 312 434400 54308
-        guard let printView = PrintBoxCodesPreviewView.loadFromNib() else { return }
-        printView.updateData(boxCodeModel)
-        printView.setNeedsLayout()
-        printView.layoutIfNeeded()
-        guard let preViewImage = printView.renderImage else { return }
+//        printView.updateData(boxCodeModel)
+//        printView.setNeedsLayout()
+//        printView.layoutIfNeeded()
+//        guard let preViewImage = printView.renderImage else { return }
 //        let scaleImage = preViewImage.scaleImage(with: preViewImage, width: 600, height: 840)
 //        bitDataInfoModel = scaleImage.bitmapData()
         p_printData()

@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import NXDesign
 import CoreBluetooth
 
 //MARK: - help
@@ -159,7 +158,7 @@ class BLEManager: NSObject {
     /// - Parameter filterBlk: 设备名称匹配，传入name，由业务方判断名称匹配成功与否
     func connectPeripheral(peripheral: CBPeripheral) {
         guard state.isPoweredOn else {
-            NXToast.show(text: "请打开蓝牙".localized)
+            debugPrint("请打开蓝牙")
             return
         }
         if peripheral.state == .connected || peripheral.state == .connecting { return }
