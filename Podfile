@@ -33,4 +33,10 @@ target 'EveryDay' do
 
   #FMDB
   pod 'FMDB'
+  
+  #pod 'ZXingObjC', '~> 3.6.4'
+
+  pod 'LBXScan/LBXNative','~> 2.5'
+  pod 'LBXScan/LBXZXing','~> 2.5'
+  pod 'LBXScan/UI','~> 2.5'
 end

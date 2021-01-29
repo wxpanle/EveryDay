@@ -21,6 +21,13 @@ PODS:
   - FMDB/standard (2.7.5)
   - HYBLoopScrollView (3.0.0)
   - IQKeyboardManagerSwift (6.5.6)
+  - LBXScan/LBXNative (2.5.1):
+    - LBXScan/Types (~> 2.2)
+  - LBXScan/LBXZXing (2.5.1):
+    - LBXScan/Types (~> 2.2)
+  - LBXScan/Types (2.5.1)
+  - LBXScan/UI (2.5.1):
+    - LBXScan/Types (~> 2.2)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.5.0)
@@ -55,6 +62,9 @@ DEPENDENCIES:
   - FMDB
   - HYBLoopScrollView (~> 3.0.0)
   - IQKeyboardManagerSwift
+  - LBXScan/LBXNative (~> 2.5)
+  - LBXScan/LBXZXing (~> 2.5)
+  - LBXScan/UI (~> 2.5)
   - Masonry
   - MBProgressHUD (~> 1.2.0)
   - MJRefresh
@@ -81,6 +91,7 @@ SPEC REPOS:
     - FMDB
     - HYBLoopScrollView
     - IQKeyboardManagerSwift
+    - LBXScan
     - Masonry
     - MBProgressHUD
     - MJRefresh
@@ -106,6 +117,7 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   HYBLoopScrollView: ad1dc5709e05ce77e0b1eb4b4fdd0fe55fc8cab2
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  LBXScan: 90ca10d0c38fb4a5a6980d7782354f3f69f50093
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
@@ -124,6 +136,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 166178b5070af1144750a85a4971d597f56ebbfe
+PODFILE CHECKSUM: abecad5332b5a6bbe6965b9ab56c6a45b5fbc243
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1
