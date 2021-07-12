@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65FF12E8D42D07C25C70F33D /* Pods_EveryDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D400306E233215EFBDD710 /* Pods_EveryDay.framework */; };
-		B222CCC5269C49FC00133772 /* ARCLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B222CCC4269C49FC00133772 /* ARCLearnViewController.m */; settings = {COMPILER_FLAGS = "-fon-objc-arc"; }; };
+		B222CCC5269C49FC00133772 /* ARCLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B222CCC4269C49FC00133772 /* ARCLearnViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B25BC48C253E9B6B005A30CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BC48B253E9B6B005A30CC /* AppDelegate.swift */; };
 		B25BC490253E9B6B005A30CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BC48F253E9B6B005A30CC /* ViewController.swift */; };
 		B25BC493253E9B6B005A30CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BC491253E9B6B005A30CC /* Main.storyboard */; };
@@ -54,6 +54,7 @@
 		910EDEC72D355C38989B2E92 /* Pods-EveryDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EveryDay.debug.xcconfig"; path = "Target Support Files/Pods-EveryDay/Pods-EveryDay.debug.xcconfig"; sourceTree = "<group>"; };
 		B222CCC3269C49FC00133772 /* ARCLearnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCLearnViewController.h; sourceTree = "<group>"; };
 		B222CCC4269C49FC00133772 /* ARCLearnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCLearnViewController.m; sourceTree = "<group>"; };
+		B222CCEB269C5B2000133772 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		B25BC488253E9B6B005A30CC /* EveryDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25BC48B253E9B6B005A30CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B25BC48F253E9B6B005A30CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,10 +126,19 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		B222CCEA269C5B2000133772 /* BridgingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				B222CCEB269C5B2000133772 /* Bridging-Header.h */,
+			);
+			path = BridgingHeader;
+			sourceTree = "<group>";
+		};
 		B25BC47F253E9B6B005A30CC = {
 			isa = PBXGroup;
 			children = (
 				B25BC48A253E9B6B005A30CC /* EveryDay */,
+				B222CCEA269C5B2000133772 /* BridgingHeader */,
 				B25BC489253E9B6B005A30CC /* Products */,
 				E2D998AE5895678897F001B9 /* Pods */,
 				3E5C535E6F4A3926A6DA1FD9 /* Frameworks */,
@@ -308,7 +318,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					B25BC487253E9B6B005A30CC = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -510,6 +520,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "BridgingHeader/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -564,6 +575,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "BridgingHeader/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -578,7 +590,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NT5F6C8MM;
 				INFOPLIST_FILE = EveryDay/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -599,7 +611,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NT5F6C8MM;
 				INFOPLIST_FILE = EveryDay/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -42,12 +42,14 @@ class ViewController: UIViewController {
         btn.addTarget(self, action: #selector(test1), for: .touchUpInside)
         view.addSubview(btn)
         
-        test = TestClass()
+        
     }
     
     @objc private func test1() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
-            self.test = nil
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) { [weak self] in
+            guard let self = self else { return }
+            let vc = ARCLearnViewController()
+            self.present(vc, animated: true, completion: nil)
         }
     }
 }

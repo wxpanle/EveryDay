@@ -16,8 +16,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSObject *obj = [[NSObject alloc] init];
     
+    
+    NSObject *obj = [[NSObject alloc] init];
     [obj retain];
     
     NSLog(@"%@", obj.description);
