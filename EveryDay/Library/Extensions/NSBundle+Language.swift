@@ -1,10 +1,8 @@
 //
 //  NSBundle+Language.swift
-//  ExtremePlusDriver
+//  EveryDay
 //
 //  Created by on 2020/5/20.
-//  Copyright © 2020 Beijing SF Intra-city Technology Co., Ltd. All rights reserved.
-//
 
 import Foundation
 

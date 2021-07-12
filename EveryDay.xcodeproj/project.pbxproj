@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		65FF12E8D42D07C25C70F33D /* Pods_EveryDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D400306E233215EFBDD710 /* Pods_EveryDay.framework */; };
+		B222CCC5269C49FC00133772 /* ARCLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B222CCC4269C49FC00133772 /* ARCLearnViewController.m */; settings = {COMPILER_FLAGS = "-fon-objc-arc"; }; };
 		B25BC48C253E9B6B005A30CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BC48B253E9B6B005A30CC /* AppDelegate.swift */; };
 		B25BC490253E9B6B005A30CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BC48F253E9B6B005A30CC /* ViewController.swift */; };
 		B25BC493253E9B6B005A30CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BC491253E9B6B005A30CC /* Main.storyboard */; };
 		B25BC495253E9B6E005A30CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25BC494253E9B6E005A30CC /* Assets.xcassets */; };
 		B25BC498253E9B6E005A30CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BC496253E9B6E005A30CC /* LaunchScreen.storyboard */; };
+		B291EC702670B32900D36102 /* String+Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B291EC6F2670B32900D36102 /* String+Directory.swift */; };
+		B291EC7B2670BE4A00D36102 /* PLCacheConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B291EC7A2670BE4900D36102 /* PLCacheConstant.swift */; };
 		B29643B926441512008B5299 /* PLMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29643B526441512008B5299 /* PLMemoryCache.swift */; };
 		B29643BA26441512008B5299 /* PLDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29643B626441512008B5299 /* PLDiskCache.swift */; };
 		B29643BB26441512008B5299 /* PLCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29643B726441512008B5299 /* PLCache.swift */; };
@@ -36,12 +39,21 @@
 		B2B3AF27254675B5001633EE /* UIImageExtexsions+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEED254675B5001633EE /* UIImageExtexsions+Print.swift */; };
 		B2B3AF28254675B5001633EE /* PrintBoxCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEEE254675B5001633EE /* PrintBoxCodeModel.swift */; };
 		B2B3AF29254675B5001633EE /* PrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AEEF254675B5001633EE /* PrintManager.swift */; };
+		B2B6DA7A267218720010245F /* PLCacheLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6DA79267218720010245F /* PLCacheLock.swift */; };
+		B2B6DA97267230BB0010245F /* Data+Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6DA96267230BB0010245F /* Data+Hash.swift */; };
+		B2B6DA9A267231500010245F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6DA99267231500010245F /* String+Extensions.swift */; };
+		B2B6DA9D267232700010245F /* CharacterSet+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6DA9C267232700010245F /* CharacterSet+Extensions.swift */; };
+		B2B6DAA02672329C0010245F /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6DA9F2672329C0010245F /* Dictionary+Extensions.swift */; };
+		B2B6DAA4267234F10010245F /* WeakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6DAA3267234F10010245F /* WeakProxy.swift */; };
+		B2B6DAA7267242930010245F /* Timer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6DAA6267242930010245F /* Timer+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13D400306E233215EFBDD710 /* Pods_EveryDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EveryDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5848DB583275FAC9759E7A78 /* Pods-EveryDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EveryDay.release.xcconfig"; path = "Target Support Files/Pods-EveryDay/Pods-EveryDay.release.xcconfig"; sourceTree = "<group>"; };
 		910EDEC72D355C38989B2E92 /* Pods-EveryDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EveryDay.debug.xcconfig"; path = "Target Support Files/Pods-EveryDay/Pods-EveryDay.debug.xcconfig"; sourceTree = "<group>"; };
+		B222CCC3269C49FC00133772 /* ARCLearnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCLearnViewController.h; sourceTree = "<group>"; };
+		B222CCC4269C49FC00133772 /* ARCLearnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCLearnViewController.m; sourceTree = "<group>"; };
 		B25BC488253E9B6B005A30CC /* EveryDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25BC48B253E9B6B005A30CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B25BC48F253E9B6B005A30CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		B25BC494253E9B6E005A30CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B25BC497253E9B6E005A30CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B25BC499253E9B6E005A30CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B291EC6F2670B32900D36102 /* String+Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Directory.swift"; sourceTree = "<group>"; };
+		B291EC7A2670BE4900D36102 /* PLCacheConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLCacheConstant.swift; sourceTree = "<group>"; };
 		B29643B526441512008B5299 /* PLMemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLMemoryCache.swift; sourceTree = "<group>"; };
 		B29643B626441512008B5299 /* PLDiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLDiskCache.swift; sourceTree = "<group>"; };
 		B29643B726441512008B5299 /* PLCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLCache.swift; sourceTree = "<group>"; };
@@ -73,6 +87,13 @@
 		B2B3AEED254675B5001633EE /* UIImageExtexsions+Print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageExtexsions+Print.swift"; sourceTree = "<group>"; };
 		B2B3AEEE254675B5001633EE /* PrintBoxCodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintBoxCodeModel.swift; sourceTree = "<group>"; };
 		B2B3AEEF254675B5001633EE /* PrintManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintManager.swift; sourceTree = "<group>"; };
+		B2B6DA79267218720010245F /* PLCacheLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLCacheLock.swift; sourceTree = "<group>"; };
+		B2B6DA96267230BB0010245F /* Data+Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Hash.swift"; sourceTree = "<group>"; };
+		B2B6DA99267231500010245F /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		B2B6DA9C267232700010245F /* CharacterSet+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterSet+Extensions.swift"; sourceTree = "<group>"; };
+		B2B6DA9F2672329C0010245F /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		B2B6DAA3267234F10010245F /* WeakProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakProxy.swift; sourceTree = "<group>"; };
+		B2B6DAA6267242930010245F /* Timer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +114,15 @@
 				13D400306E233215EFBDD710 /* Pods_EveryDay.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B222CCC1269C49D900133772 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				B222CCC3269C49FC00133772 /* ARCLearnViewController.h */,
+				B222CCC4269C49FC00133772 /* ARCLearnViewController.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		B25BC47F253E9B6B005A30CC = {
@@ -116,6 +146,7 @@
 		B25BC48A253E9B6B005A30CC /* EveryDay */ = {
 			isa = PBXGroup;
 			children = (
+				B222CCC1269C49D900133772 /* Test */,
 				B29643B326441512008B5299 /* Add */,
 				B2B9BFEA2589E20000B658BE /* Delegate */,
 				B2B200392589E6F1000253C9 /* Resources */,
@@ -139,6 +170,9 @@
 				B29643B526441512008B5299 /* PLMemoryCache.swift */,
 				B29643B626441512008B5299 /* PLDiskCache.swift */,
 				B29643B826441512008B5299 /* PLDBCache.swift */,
+				B291EC6F2670B32900D36102 /* String+Directory.swift */,
+				B291EC7A2670BE4900D36102 /* PLCacheConstant.swift */,
+				B2B6DA79267218720010245F /* PLCacheLock.swift */,
 			);
 			path = YYCache;
 			sourceTree = "<group>";
@@ -157,6 +191,7 @@
 		B2B3AEC92546758C001633EE /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				B2B6DAA22672342D0010245F /* WeakProxy */,
 				B2B3AECC254675B4001633EE /* Extensions */,
 				B2B3AEE2254675B5001633EE /* Print */,
 			);
@@ -175,6 +210,11 @@
 				B2B3AED8254675B5001633EE /* CellReuseIdentifierExtension.swift */,
 				B2B3AED9254675B5001633EE /* CalculationExtensions.swift */,
 				B2B3AEDC254675B5001633EE /* ScreenExtensions.swift */,
+				B2B6DA96267230BB0010245F /* Data+Hash.swift */,
+				B2B6DA99267231500010245F /* String+Extensions.swift */,
+				B2B6DA9C267232700010245F /* CharacterSet+Extensions.swift */,
+				B2B6DA9F2672329C0010245F /* Dictionary+Extensions.swift */,
+				B2B6DAA6267242930010245F /* Timer+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -211,6 +251,14 @@
 				B2B3AEEF254675B5001633EE /* PrintManager.swift */,
 			);
 			path = PrintManager;
+			sourceTree = "<group>";
+		};
+		B2B6DAA22672342D0010245F /* WeakProxy */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6DAA3267234F10010245F /* WeakProxy.swift */,
+			);
+			path = WeakProxy;
 			sourceTree = "<group>";
 		};
 		B2B9BFEA2589E20000B658BE /* Delegate */ = {
@@ -347,26 +395,36 @@
 			files = (
 				B29643BB26441512008B5299 /* PLCache.swift in Sources */,
 				B2B3AF12254675B5001633EE /* NSBundle+Language.swift in Sources */,
+				B291EC7B2670BE4A00D36102 /* PLCacheConstant.swift in Sources */,
 				B2B3AF23254675B5001633EE /* CBPeripheralExtensions.swift in Sources */,
 				B29643BC26441512008B5299 /* PLDBCache.swift in Sources */,
 				B2B3AF15254675B5001633EE /* UIViewControllerExtensions.swift in Sources */,
+				B2B6DAA7267242930010245F /* Timer+Extension.swift in Sources */,
 				B2B3AF22254675B5001633EE /* BLEManager.swift in Sources */,
+				B2B6DAA02672329C0010245F /* Dictionary+Extensions.swift in Sources */,
 				B2B3AF25254675B5001633EE /* UIViewExtensions+Print.swift in Sources */,
+				B222CCC5269C49FC00133772 /* ARCLearnViewController.m in Sources */,
 				B25BC490253E9B6B005A30CC /* ViewController.swift in Sources */,
+				B2B6DA7A267218720010245F /* PLCacheLock.swift in Sources */,
+				B2B6DA9A267231500010245F /* String+Extensions.swift in Sources */,
 				B2B3AF1B254675B5001633EE /* ScreenExtensions.swift in Sources */,
 				B2B3AF26254675B5001633EE /* UIImage+Help.m in Sources */,
 				B2B3AF18254675B5001633EE /* CalculationExtensions.swift in Sources */,
 				B2B3AF17254675B5001633EE /* CellReuseIdentifierExtension.swift in Sources */,
 				B25BC48C253E9B6B005A30CC /* AppDelegate.swift in Sources */,
 				B2B3AF24254675B5001633EE /* BLEDefines.swift in Sources */,
+				B2B6DAA4267234F10010245F /* WeakProxy.swift in Sources */,
 				B2B3AF28254675B5001633EE /* PrintBoxCodeModel.swift in Sources */,
+				B2B6DA97267230BB0010245F /* Data+Hash.swift in Sources */,
 				B2B3AF16254675B5001633EE /* String+Pinyin.swift in Sources */,
 				B2B3AF0F254675B5001633EE /* ArrayExtension.swift in Sources */,
+				B291EC702670B32900D36102 /* String+Directory.swift in Sources */,
 				B2B3AF27254675B5001633EE /* UIImageExtexsions+Print.swift in Sources */,
 				B2B3AF20254675B5001633EE /* BLEManagerDelegate.swift in Sources */,
 				B2B3AF21254675B5001633EE /* BLEAlert.swift in Sources */,
 				B2B3AF29254675B5001633EE /* PrintManager.swift in Sources */,
 				B29643B926441512008B5299 /* PLMemoryCache.swift in Sources */,
+				B2B6DA9D267232700010245F /* CharacterSet+Extensions.swift in Sources */,
 				B2B3AF10254675B5001633EE /* ControlExtension.swift in Sources */,
 				B2B3AF11254675B5001633EE /* UIApplication+OpenUrl.swift in Sources */,
 				B29643BA26441512008B5299 /* PLDiskCache.swift in Sources */,

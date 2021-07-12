@@ -1,10 +1,8 @@
 //
 //  ControlExtension.swift
-//  ExtremePlusDriver
+//  EveryDay
 //
 //  Created by on 2019/11/15.
-//  Copyright © 2019 Beijing SF Intra-city Technology Co., Ltd. All rights reserved.
-//
 
 import Foundation
 import UIKit

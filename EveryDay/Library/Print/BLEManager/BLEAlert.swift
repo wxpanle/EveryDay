@@ -1,6 +1,6 @@
 //
 //  BLEAlert.swift
-//  ExtremePlusDriver
+//  EveryDay
 //
 //  Created by "pl" on 2019/12/25.
 //  Copyright © 2019 Beijing SF Intra-city Technology Co., Ltd. All rights reserved.

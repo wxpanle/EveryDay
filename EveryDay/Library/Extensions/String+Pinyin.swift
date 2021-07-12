@@ -1,10 +1,8 @@
 //
 //  String+Pinyin.swift
-//  ExtremePlusDriver
+//  EveryDay
 //
 //  Created by "pl" on 2020/6/2.
-//  Copyright © 2020 Beijing SF Intra-city Technology Co., Ltd. All rights reserved.
-//
 
 import Foundation
 
