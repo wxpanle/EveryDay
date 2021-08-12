@@ -41,16 +41,11 @@ class ViewController: UIViewController {
         btn.frame = CGRect(x: 150.0, y: 150.0, width: 100, height: 70)
         btn.addTarget(self, action: #selector(test1), for: .touchUpInside)
         view.addSubview(btn)
-        
-        
     }
     
     @objc private func test1() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) { [weak self] in
-            guard let self = self else { return }
-            let vc = ARCLearnViewController()
-            self.present(vc, animated: true, completion: nil)
-        }
+        let vc = ARCLearnViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

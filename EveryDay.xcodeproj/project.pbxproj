@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		65FF12E8D42D07C25C70F33D /* Pods_EveryDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D400306E233215EFBDD710 /* Pods_EveryDay.framework */; };
 		B222CCC5269C49FC00133772 /* ARCLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B222CCC4269C49FC00133772 /* ARCLearnViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B222CD16269D32C000133772 /* NSObject+NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B222CD15269D32C000133772 /* NSObject+NSObject_Extension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B25BC48C253E9B6B005A30CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BC48B253E9B6B005A30CC /* AppDelegate.swift */; };
 		B25BC490253E9B6B005A30CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BC48F253E9B6B005A30CC /* ViewController.swift */; };
 		B25BC493253E9B6B005A30CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BC491253E9B6B005A30CC /* Main.storyboard */; };
@@ -55,6 +56,8 @@
 		B222CCC3269C49FC00133772 /* ARCLearnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCLearnViewController.h; sourceTree = "<group>"; };
 		B222CCC4269C49FC00133772 /* ARCLearnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCLearnViewController.m; sourceTree = "<group>"; };
 		B222CCEB269C5B2000133772 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		B222CD14269D32C000133772 /* NSObject+NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSObject_Extension.h"; sourceTree = "<group>"; };
+		B222CD15269D32C000133772 /* NSObject+NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSObject_Extension.m"; sourceTree = "<group>"; };
 		B25BC488253E9B6B005A30CC /* EveryDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25BC48B253E9B6B005A30CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B25BC48F253E9B6B005A30CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 			children = (
 				B222CCC3269C49FC00133772 /* ARCLearnViewController.h */,
 				B222CCC4269C49FC00133772 /* ARCLearnViewController.m */,
+				B222CD14269D32C000133772 /* NSObject+NSObject_Extension.h */,
+				B222CD15269D32C000133772 /* NSObject+NSObject_Extension.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -406,6 +411,7 @@
 				B29643BB26441512008B5299 /* PLCache.swift in Sources */,
 				B2B3AF12254675B5001633EE /* NSBundle+Language.swift in Sources */,
 				B291EC7B2670BE4A00D36102 /* PLCacheConstant.swift in Sources */,
+				B222CD16269D32C000133772 /* NSObject+NSObject_Extension.m in Sources */,
 				B2B3AF23254675B5001633EE /* CBPeripheralExtensions.swift in Sources */,
 				B29643BC26441512008B5299 /* PLDBCache.swift in Sources */,
 				B2B3AF15254675B5001633EE /* UIViewControllerExtensions.swift in Sources */,
@@ -598,7 +604,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PL.EveryDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -619,7 +625,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PL.EveryDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
