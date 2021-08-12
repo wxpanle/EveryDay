@@ -2,8 +2,8 @@
 //  BLEManagerDelegate.swift
 //  BLECentralManager
 //
-//  Created by yanghong on 2019/5/23.
-//  Copyright © 2019 Beijing SF Intra-city Technology Co., Ltd. All rights reserved.
+//  Created by pl on 2019/5/23.
+//   All rights reserved.
 //
 
 import Foundation
